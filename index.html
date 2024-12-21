@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="FastDash - Create effortless dashboards and forms with our innovative platform">
+    
+    <!-- Preload critical assets -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" as="style">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="preload" href="css/animations.css" as="style">
+    
+    <title>FastDash - Effortless Dashboards, Powered by You</title>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Scripts -->
+    <script src="js/theme.js" defer></script>
+    <script src="js/animations.js" defer></script>
+    <script src="js/form.js" defer></script>
+    <script src="js/navigation.js" defer></script>
+</head>
+<body class="light-mode">
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-text">FastDash</span>
+        </div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#pricing">Pricing</a>
+        </div>
+        <button class="theme-toggle" aria-label="Toggle theme">
+            <span class="theme-toggle-icon"></span>
+        </button>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <h1 class="glow-text">Effortless Dashboards, Powered by You</h1>
+            <button class="button primary glow-effect" data-action="start">
+                <span>Get Started Now</span>
+                <div class="button-glow"></div>
+            </button>
+            <div class="grid-background"></div>
+        </section>
+        <section id="about" class="about fade-in">
+            <h2 class="section-title glow-text">Our Story</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="glow-text-subtle">
+                        Born at the prestigious National School of Management (ENSM), FastDash emerged from the innovative minds of three passionate students who recognized the need for better data analysis solutions at Danone.
+                    </p>
+                </div>
+                <div class="team-cards">
+                    <div class="team-card glow-border">
+                        <div class="team-icon">
+                            <i class="fas fa-code float"></i>
+                        </div>
+                        <h3>The Developer</h3>
+                        <p>A coding enthusiast who transformed complex data requirements into elegant dashboard solutions.</p>
+                    </div>
+                    <div class="team-card glow-border">
+                        <div class="team-icon">
+                            <i class="fas fa-chart-pie float"></i>
+                        </div>
+                        <h3>The Analyst</h3>
+                        <p>Specialized in turning raw data into actionable insights for every department.</p>
+                    </div>
+                    <div class="team-card glow-border">
+                        <div class="team-icon">
+                            <i class="fas fa-lightbulb float"></i>
+                        </div>
+                        <h3>The Innovator</h3>
+                        <p>Bridged the gap between technical solutions and business needs with creative approaches.</p>
+                    </div>
+                </div>
+                <div class="mission-statement">
+                    <p class="glow-text-subtle">
+                        Our mission began with creating specialized dashboards and forms for Danone's various departments, 
+                        streamlining their data analysis processes and enabling better decision-making across the organization.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="services" class="services fade-in">
+            <h2 class="section-title glow-text">Why Choose FastDash?</h2>
+            <div class="service-cards">
+                <div class="service-card glow-border">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line float"></i>
+                    </div>
+                    <h3>Custom Dashboards</h3>
+                    <p>Upload your data and receive a tailor-made dashboard within hours.</p>
+                </div>
+                <div class="service-card glow-border">
+                    <div class="service-icon">
+                        <i class="fas fa-file-alt float"></i>
+                    </div>
+                    <h3>Dynamic Forms</h3>
+                    <p>Create, collect, and analyze data with smart forms.</p>
+                </div>
+                <div class="service-card glow-border">
+                    <div class="service-icon">
+                        <i class="fas fa-brain float"></i>
+                    </div>
+                    <h3>Expert Insights</h3>
+                    <p>Our team provides in-depth manual analysis for actionable results.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials fade-in">
+            <h2 class="section-title glow-text">What Our Clients Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial-card glow-border">
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"FastDash transformed our data analysis workflow. The custom dashboards are intuitive and the manual insights are invaluable."</p>
+                    <div class="client-info">
+                        <span class="client-name">Sarah M.</span>
+                        <span class="client-position">Data Analyst at TechCorp</span>
+                    </div>
+                </div>
+                <div class="testimonial-card glow-border">
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>"The speed and accuracy of their dashboard creation is impressive. Highly recommend for any data-driven business."</p>
+                    <div class="client-info">
+                        <span class="client-name">Ahmed K.</span>
+                        <span class="client-position">Business Intelligence Manager</span>
+                    </div>
+                </div>
+                <div class="testimonial-card glow-border">
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"FastDash helped us make sense of our complex data structures. Their expert team delivers exceptional results."</p>
+                    <div class="client-info">
+                        <span class="client-name">Karim B.</span>
+                        <span class="client-position">CEO of DataFlow</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="pricing fade-in">
+            <h2 class="section-title glow-text">Choose Your Plan</h2>
+            <div class="pricing-cards">
+                <div class="pricing-card glow-border">
+                    <h3>Starter Plan</h3>
+                    <div class="price">
+                        <span class="amount">1,500 DZD</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <ul>
+                        <li>Basic dashboard creation</li>
+                        <li>Manual analysis for up to 2 files per month</li>
+                        <li>Limited customization options</li>
+                    </ul>
+                    <button class="button glow-effect">Choose Plan</button>
+                </div>
+                <div class="pricing-card glow-border featured">
+                    <h3>Pro Plan</h3>
+                    <div class="price">
+                        <span class="amount">4,500 DZD</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <ul>
+                        <li>Priority delivery of custom dashboards</li>
+                        <li>Manual analysis for unlimited files</li>
+                        <li>Advanced customization with tailored recommendations</li>
+                    </ul>
+                    <button class="button primary glow-effect">Choose Plan</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="feedback" class="feedback fade-in">
+            <h2 class="section-title glow-text">We Value Your Feedback</h2>
+            <div class="feedback-container">
+                <div class="rating">
+                    <i class="far fa-star" data-rating="1"></i>
+                    <i class="far fa-star" data-rating="2"></i>
+                    <i class="far fa-star" data-rating="3"></i>
+                    <i class="far fa-star" data-rating="4"></i>
+                    <i class="far fa-star" data-rating="5"></i>
+                </div>
+                <textarea class="feedback-input glow-border" 
+                          placeholder="Share your thoughts with us..."></textarea>
+                <button class="button primary glow-effect">Submit Feedback</button>
+            </div>
+        </section>
+
+        <footer class="site-footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">FastDash</span>
+                </div>
+                <div class="footer-credits">
+                    <p class="glow-text-subtle">Made by Yousri Amrane</p>
+                    <p class="glow-text-subtle">100% Algerian <span class="flag">🇩🇿</span></p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <div class="popup-overlay" id="submitFormPopup">
+        <div class="popup-content">
+            <button class="close-popup">×</button>
+            <h2 class="glow-text">Get Started with FastDash</h2>
+            <form id="submissionForm" class="submission-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" required 
+                           class="glow-input" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" required 
+                           class="glow-input" placeholder="Your Email Address">
+                </div>
+                <div class="form-group">
+                    <textarea id="request" name="request" required 
+                              class="glow-input" placeholder="Describe your needs..."></textarea>
+                </div>
+                <div class="form-group file-upload">
+                    <label for="file" class="file-label">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                        <span>Upload CSV or PDF</span>
+                    </label>
+                    <input type="file" id="file" name="file" 
+                           accept=".csv,.pdf" required>
+                    <p class="file-name"></p>
+                </div>
+                <button type="submit" class="button primary glow-effect">
+                    Submit Request
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Submissions Viewer -->
+    <div class="submissions-viewer" id="submissionsViewer">
+        <div class="submissions-content">
+            <button class="close-submissions">×</button>
+            <h2 class="glow-text">Submitted Forms</h2>
+            <div class="submissions-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Request</th>
+                            <th>File</th>
+                        </tr>
+                    </thead>
+                    <tbody id="submissionsTableBody">
+                        <!-- Submissions will be inserted here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- View Submissions Button -->
+    <button id="viewSubmissionsBtn" class="view-submissions-btn">
+        <i class="fas fa-list"></i> View Submissions
+    </button>
+</body>
+</html> 
